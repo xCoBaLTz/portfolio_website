@@ -1,0 +1,52 @@
+class Calendar
+{
+  public static void main (String[] args)
+  {
+    System.out.println("Input days");
+    int days = In.getInt();
+    System.out.println("Input month");
+    String month = In.getString();
+    System.out.println("Input the first day of the month (sunday = 0, saturday = 6)");
+    int j = In.getInt();
+    System.out.println("                " + month );
+    System.out.println("     Sun   Mon   Tue   Wed   Thu   Fri   Sat");
+    int i=1;
+    if (j == 0){
+      for (i = 1; i <= 7 ; i++)
+        System.out.print("     " + i);
+     }
+    if (j == 1){
+      System.out.print("          " + i);
+      for (i = 2; i <= 6 ; i++) {
+        System.out.print("     " + i);
+      for(i = 7; i <= days ; i++) {
+      if(i % 7 == 0){
+      System.out.println();
+    }
+      System.out.print("     " + i);
+    }
+      }
+    if (j == 2){
+      System.out.print("                    " + i);
+      for (i = 2; i <= 5 ; i++)
+        System.out.print("     " + i);}
+    if (j == 3){
+      System.out.print("                         " + i);
+       for (i = 2; i <= 4 ; i++)
+         System.out.print("     " + i);}
+    if (j == 4){
+      System.out.print("                              " + i);
+      for (i = 2; i <= 3 ; i++)
+        System.out.print("     " + i);}
+    if (j == 5){
+      System.out.print("                                   " + i);
+      for (i = 2; i <= 2 ; i++)
+        System.out.print("     " + i);}
+    if (j == 6){
+      System.out.print("                                        " + i);
+       for (i = 2; i <= 3 ; i++)
+         System.out.print("     " + i);
+    }
+    }
+  }
+}
