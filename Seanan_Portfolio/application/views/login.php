@@ -1,14 +1,4 @@
-<style>
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: initial;
-}
-</style>
-
+<body style="overflow:hidden; margin:auto;">
 <div>
 <?php
   echo "<h2>Admin Access</h2>";
@@ -28,6 +18,6 @@ a.button {
   <?php
   echo form_submit("Submit", "Login");
   echo form_close();
-
 ?>
 </div>
+</body>
