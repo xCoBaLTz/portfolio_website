@@ -86,7 +86,7 @@ p {
   line-height: 21px;
 }
 
-a {
+#main a {
   color: #1199c3;
   text-decoration: none;
   margin-top: 10px;
@@ -143,10 +143,10 @@ a {
 }
 
 .center-content {
-  padding: 2.5% 5%;
+  padding: 0.5% 5%;
 }
 
-ul {
+#main ul {
   list-style-type: none;
 }
 

@@ -1,0 +1,29 @@
+.container {
+  background: #484848;
+  color: white;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 95%;
+}
+
+.info {
+  position: relative;
+  top: 30%;
+}
+
+.info h1 {
+  font-size: 3em;
+  color: #f5a623;
+}
+
+.info h2 {
+  font-size: 2em;
+}
+
+.info h3{
+  font-size: 1.5em;
+}
+.info h1, h2, h3{
+  font-family: "Roboto", sans-serif;
+}
