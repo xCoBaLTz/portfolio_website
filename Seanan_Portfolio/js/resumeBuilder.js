@@ -63,7 +63,7 @@ var work ={
    "title" : "Web Content Developer",
    "dates" : "April 2016 - Current",
    "location" : "Toronto, ON",
-   "description" : "Volunteer position, develope and maintain the electrical and computer engineering student society webpage."
+   "description" : "Volunteer position, develop and maintain the electrical and computer engineering student society webpage."
  },
  {
    "employer" : "Best Buy Canada",
