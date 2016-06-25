@@ -1,16 +1,16 @@
 .container {
-  background: #484848;
+  background: #080808;
   color: white;
   position: absolute;
   width: 100%;
-  height: 95%;
+  height: 100%;
   font-family: "Roboto", sans-serif;
 }
 
 .info h1 {
   font-size: 3em;
   text-align: center;
-  color: #f5a623;
+  color: #00ffde;
 }
 
 .info h2 {
@@ -19,4 +19,5 @@
 
 .info h2, h3 {
   margin-left: 50px;
+  color: #bafbf3;
 }
