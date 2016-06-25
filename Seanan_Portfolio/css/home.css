@@ -1,10 +1,10 @@
 .container {
-  background: #484848;
+  background: #080808;
   color: white;
   text-align: center;
   position: absolute;
   width: 100%;
-  height: 95%;
+  height: 100%;
 }
 
 .info {
@@ -14,15 +14,17 @@
 
 .info h1 {
   font-size: 3em;
-  color: #f5a623;
+  color: #00ffde;
 }
 
 .info h2 {
   font-size: 2em;
+  color: #bafbf3;
 }
 
 .info h3{
   font-size: 1.5em;
+  color: #bafbf3;
 }
 .info h1, h2, h3{
   font-family: "Roboto", sans-serif;
